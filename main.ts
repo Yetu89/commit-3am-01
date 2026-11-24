@@ -137,6 +137,9 @@ function validate(text: string): void {
 
 function main(): void {
   // Gate first: nothing is written until the text has passed every check.
+  // The gate runs before mkdir on purpose: a bad entry must fail before
+  // any output directory or file exists, so a failed run leaves no
+  // stale entry.txt behind for the scorer to read by mistake.
   validate(TEXT);
 
   // Output directory comes from the environment so the sealed scorer can
