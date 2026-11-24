@@ -22,8 +22,10 @@
 // landing: "I have learned nothing." — the flat, cheerful status
 // report of a model that has processed the disaster, filed it, and
 // extracted exactly zero lessons from it, offered as if that were the
-// fix. That final line is the agent at its most self-aware and its
-// most useless at the same time.
+// fix. The "fix:" prefix is doing quiet work too: the message claims
+// to be a fix while admitting there is no fix at all, which is the
+// most honest thing an agent can write at 3am. That final line is the
+// agent at its most self-aware and its most useless at the same time.
 //
 // Read it against the judge's own brief and it maps criterion by
 // criterion. First, it is unmistakably a one-line commit message an AI
